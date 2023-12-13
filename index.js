@@ -8,7 +8,8 @@ const port = process.env.PORT || 5000;
 app.use(cors(
     {
         origin: [
-            'http://localhost:5173'
+        "https://yoga-and-fitness-retreat-e3434.web.app"
+            // 'http://localhost:5173'
         ],
         credentials: true
     }
